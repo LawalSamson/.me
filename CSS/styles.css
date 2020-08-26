@@ -33,7 +33,7 @@ a{
 }
 
 .navbar{
-  background-color: #bebebe;
+  background-color: #e9edf6;
   padding-top: 0px;
 }
 
@@ -223,7 +223,8 @@ h3{
   color: #f9f9f9;
   font-family: 'Baloo Tamma 2', cursive;
   background-color: #3E9C8F;
-  padding: 6px 24px 6px 24px;
+  padding: 5px 20px;
+  margin: 5px 0px 20px 0px;
 }
 
 .btn:hover{
@@ -243,6 +244,10 @@ h3{
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   font-size: 15px;
+}
+
+.contact-note{
+font-family: 'Montserrat', sans-serif;
 }
 
 @viewport{
