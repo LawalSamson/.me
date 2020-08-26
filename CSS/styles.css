@@ -15,33 +15,28 @@ body{
 
 /* Navbar */
 .navbar-brand{
-  font-family: 'Monoton', cursive;
-  color: #393073;
+  color: gray;
 }
 
 .navbar-brand:hover{
-  color: #393073;
+  color: gray;
 }
 
 a{
-  color: #393073;
+  color: #808588;
   padding-bottom: 0px;
 
 }
 .nav-link:hover{
-  background-color: #0B9ED9;
+  background-color: #808588;
   color: #f2f2f2;
 }
 
 .navbar{
-  background-color: #e84a5f;
+  background-color: #bebebe;
   padding-top: 0px;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
 
 /* Header */
 #header{
@@ -61,7 +56,7 @@ a{
 .para{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-   color: #393073;
+   color: #808588;
 }
 
 
@@ -92,33 +87,48 @@ a{
 .container-fluid{
   width: 100%;
   height: 500px;
-  background-color: #406F8F;
-  padding: 50px 200px;
+  background-color: #e9edf6;
+  padding: 50px 0px 0px 0px;
 }
 
 .first{
   display: inline;
   float: left;
-  color: #f9f9f9;
-  background-color: #4298A6;
-  width: 40%;
+  color: #bebebe;
+  background-color: #f9f9f9;
+  width: 27%;
   height: 400px;
   padding: 50px 50px 50px 50px;
-  border-radius: 20px;
+  margin-left: 30px;
 }
 
 .second{
   display: inline;
   float: right;
-  color: white;
-  background-color: #3E9C8F;
-  width: 40%;
+  color: #bebebe;
+  background-color: #f9f9f9;
+  width: 27%;
   height: 400px;
   padding: 50px 50px 50px 50px;
-  border-radius: 20px;
+  margin-right: 30px;
 }
 
+.third{
+  display: inline;
+  float: right;
+  color: #bebebe;
+  background-color: #f9f9f9;
+  width: 27%;
+  height: 400px;
+  padding: 50px 50px 50px 50px;
+  margin-right: 100px;
+}
 
+h4{
+  padding: 50px 0px 10px 0px;
+  color: grey;
+  font-family: 'Baloo Tamma 2', cursive;
+}
 
 
 
@@ -202,7 +212,6 @@ h4{
 
 #footer{
   width: 100%;
-  margin-top: 30px;
   background-color: #f9f9f9;
 }
 
@@ -234,6 +243,15 @@ h3{
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   font-size: 15px;
+}
+
+@viewport{
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 /* Ideas
 font-family: 'Baloo Tamma 2', cursive;
