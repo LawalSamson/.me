@@ -5,6 +5,23 @@ body{
 
 }
 
+h3{
+  font-family: 'Overlock', cursive;
+}
+
+h4{
+  padding: 30px 0px 10px 0px;
+  color: black;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+
+
+
+
+/* Title */
+
 .welcome{
   font-family: 'Montserrat', sans-serif;
   color: #3E9C8F;
@@ -13,43 +30,56 @@ body{
   font-weight: 600;
 }
 
+
+.title{
+  background-color: #adebb5;
+}
+
+
 /* Navbar */
-.navbar-toggler{
-  color: white;
+
+.navbar-toggler-icon{
+  color: blue;
 }
 
 .navbar-brand{
-  color: gray;
+  color: white;
 }
 
 .navbar-brand:hover{
-  color: gray;
+    color: white;
 }
 
-a{
+.nav-item{
   color: #808588;
-  padding-bottom: 0px;
-
+  padding-top: 0px;
 }
+
+.nav-link{
+color: #fff;
+}
+
 .nav-link:hover{
-  background-color: #808588;
+  background-color: #9CE7A5;
   color: #f2f2f2;
 }
 
 .navbar{
-  background-color: #e9edf6;
   padding-top: 0px;
 }
 
 
+
+
+
 /* Header */
+
 #header{
 }
 
 .container{
   height: 500px;
   width: 100%;
-  background-color: white;
 }
 
 .header{
@@ -65,155 +95,29 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cards */
-.container-fluid{
-  width: 100%;
-  height: 500px;
-  background-color: #e9edf6;
-  padding: 50px 0px 0px 0px;
-}
 
-.first{
-  display: inline;
-  float: left;
-  color: #bebebe;
-  background-color: #f9f9f9;
-  width: 27%;
-  height: 400px;
-  padding: 50px 50px 50px 50px;
-  margin-left: 47px;
+.row{
+  padding: 130px 180px;
 }
-
-.third{
-  display: inline;
-  float: right;
-  color: #bebebe;
-  background-color: #f9f9f9;
-  width: 27%;
-  height: 400px;
-  padding: 50px 50px 50px 50px;
-  margin-right: 47px;
-}
-
-.second{
-  display: inline;
-  float: right;
-  color: #bebebe;
-  background-color: #f9f9f9;
-  width: 27%;
-  height: 400px;
-  padding: 50px 50px 50px 50px;
-  margin-right: 80px;
+.col-lg-6{
+  padding: 0px 50px
 }
 
 .fas{
-  color: #3E9C8F;
-}
-h4{
-  padding: 50px 0px 10px 0px;
-  color: grey;
-  font-family: 'Baloo Tamma 2', cursive;
+  color: #4AD35A;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-#skill-cards{
-  width: 100%;
-  height: 460px;
-  text-align: center;
+.pen{
+  transform: rotate(135deg);
 }
-
-
-.first{
-  display: inline;
-  float: left;
-  background-color: #406F8F;
-  height: 450px;
-  width: 340px;
-  border-radius: 25px;
-  margin: 0px 50px 0px 50px
-}
-
-.second{
-  display: inline;
-  float: right;
-  background-color: #406F8F;
-  height: 450px;
-  width: 340px;
-  border-radius: 25px;
-  margin: 0px 50px 0px 50px
-}
-
-
-.fas{
-  color: white;
-  padding: 90px 0px 30px 0px;
-}
-
-h4{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  color: #f9f9f9;
-}
-
 .note{
-  color: white;
-  font-size: 15px;
-  padding: 0px 10px 0px 10px;
-}
-
-.card {
-  float: left;
-  background-color: #406F8F;
-  height: 450px;
-  width: 340px;
-  border-radius: 25px;
+  color: grey;
 }
 
 
-.carde {
-    float: right;
-  background-color: #406F8F;
-  height: 450px;
-  width: 340px;
-  border-radius: 25px;
-} */
+
+
 
 /* Footer */
 
@@ -222,25 +126,26 @@ h4{
   background-color: #f9f9f9;
 }
 
-h3{
-  font-family: 'Overlock', cursive;
-}
+
 
 .btn{
-  color: #f9f9f9;
+  color: #fff;
   font-family: 'Baloo Tamma 2', cursive;
-  background-color: #3E9C8F;
-  padding: 5px 20px;
+  background-color: #4AD35A;
+  padding: 15px 20px;
   margin: 1px 0px 20px 0px;
 }
 
+.far{
+  color: #fff;
+}
 .btn:hover{
-  background-color: #406F8F;
+  background-color: #28A436;
 }
 
 .footer-img{
   color: #393073;
-  padding: 20px 10px 5px 10px;
+  padding: 20px 12px 5px 12px;
 }
 
 .footer-img:hover{
@@ -258,14 +163,6 @@ font-family: 'Montserrat', sans-serif;
 padding-top: 10px;
 }
 
-@viewport{
-  width: device-width;
-  zoom: 1.0;
-}
-
-@-ms-viewport{
-  width: device-width;
-}
 /* Ideas
 font-family: 'Baloo Tamma 2', cursive;
 font-family: 'Maven Pro', sans-serif;
