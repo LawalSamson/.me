@@ -32,7 +32,7 @@ h4{
 
 
 .title{
-  background-color: #adebb5;
+  background-color: #426e86;
 }
 
 
@@ -98,10 +98,10 @@ color: #fff;
 /* Cards */
 
 .row{
-  padding: 130px 180px;
+  padding: 0px 15%;
 }
 .col-lg-6{
-  padding: 0px 50px
+  padding: 20% 5%;
 }
 
 .fas{
@@ -117,13 +117,16 @@ color: #fff;
 
 
 
-
+hr{
+  width: 60%;
+  color: grey;
+}
 
 /* Footer */
 
 #footer{
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 
@@ -132,7 +135,7 @@ color: #fff;
   color: #fff;
   font-family: 'Baloo Tamma 2', cursive;
   background-color: #4AD35A;
-  padding: 15px 20px;
+  padding: 9px 20px;
   margin: 1px 0px 20px 0px;
 }
 
@@ -156,11 +159,12 @@ color: #fff;
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
   font-size: 15px;
+  color: grey;
 }
 
 .contact-note{
 font-family: 'Montserrat', sans-serif;
-padding-top: 10px;
+
 }
 
 /* Ideas
