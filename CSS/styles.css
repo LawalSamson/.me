@@ -29,7 +29,7 @@ h4{
 
 
 .title{
-  background-color: #426e86;
+  /* background-color: #426e86; */
 }
 
 
@@ -87,6 +87,16 @@ color: #fff;
   padding-top: 70px;
   font-weight: 600;
 }
+
+.welcome{
+  visibility: hidden;
+}
+
+.welcome:after{
+  content: 'first timmer';
+  visibility: visible;
+}
+
 
 .para{
   font-family: 'Montserrat', sans-serif;
@@ -170,6 +180,33 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
+
+/* Animation */
+/*
+.anim-typewriter {
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16em;
+  }
+}
+
+
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white;
+  }
+  to {
+    border-right-color: transparent;
+  }
+} */
 
 
 
