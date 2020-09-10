@@ -8,6 +8,22 @@ background-image: url('images/dot-grid.png');
   overflow-x: hidden;
 }
 
+h1{
+  color: black;
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  display: inline;
+}
+a{
+  color: #4AD35A;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
 h3{
   font-family: 'Roboto', sans-serif;
@@ -69,10 +85,11 @@ color: #fff;
 /* Header */
 
 #header{
+  padding-top: 150px;
 }
 
 .container{
-  height: 500px;
+  height: 200px;
   width: 100%;
 }
 
@@ -82,19 +99,10 @@ color: #fff;
 
 .welcome{
   font-family: 'Montserrat', sans-serif;
-  color: white;
   font-size: 30px;
-  padding-top: 70px;
-  font-weight: 600;
-}
-
-.welcome{
-  visibility: hidden;
-}
-
-.welcome:after{
-  content: 'first timmer';
-  visibility: visible;
+  font-weight: lighter;
+  color: grey;
+  display: inline;
 }
 
 
@@ -181,32 +189,17 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-/* Animation */
-/*
-.anim-typewriter {
-  animation: typewriter 4s steps(40) 1s 1 normal both,
-  blinkTextCursor 500ms steps(40) infinite normal;
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 16em;
+@keyframes caret {
+  50% {
+    border-color: transparent;
   }
 }
 
-
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: white;
-  }
-  to {
-    border-right-color: transparent;
-  }
-} */
 
 
 
