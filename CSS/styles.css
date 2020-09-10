@@ -74,7 +74,10 @@ color: #fff;
 }
 
 .nav-link:hover{
+  border-bottom: 2px solid;
+  border-color: #f8f1e1;
   color: black;
+  padding-bottom: 3px;
 }
 
 .navbar{
@@ -92,7 +95,7 @@ color: #fff;
 /* Header */
 
 #header{
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 .container{
