@@ -1,4 +1,4 @@
-html,body{
+body{
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   width: 100%;
@@ -18,16 +18,6 @@ h2{
   display: inline;
   font-size: 1.2rem;
   padding: 0px 0px 0px;
-}
-
-h3{
-  font-family: 'Maven Pro', sans-serif;
-  color: gray;
-  font-weight: 400;
-  text-align: left;
-  padding: 0px 0px 0px 70px;
-  margin: 0px;
-
 }
 
 h4{
@@ -112,12 +102,12 @@ color: #fff;
 
 .header{
   text-align: center;
-  padding: 0px 205px 0px 205px;
+  padding: 0px 20px 0px 20px;
 }
 
 .welcome{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 20px;
   font-weight: lighter;
   color: grey;
   display: inline;
@@ -136,11 +126,7 @@ color: #fff;
 
 .row{
   /* background: url('../images/dot-grid.png') repeat 0 0; */
-  padding: 0px 5% 20px 5%;
-}
-
-.myService{
-display: block;
+  padding: 30px 5% 20px 5%;
 }
 
 .col-lg-6{
@@ -214,7 +200,7 @@ padding: 0px 2%;
 
 
 
-span {
+/* span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
 }
@@ -223,17 +209,9 @@ span {
   50% {
     border-color: transparent;
   }
-}
+} */
 
 
-
-
-
-
-
-
-
-/* Media Query */
 
 
 /* fonts
