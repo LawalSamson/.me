@@ -52,6 +52,7 @@ a:hover{
 .title{
   background-image: url('../images/bgg.jpg');
   background-size: cover;
+  padding bottom: 5%;
   /* background-attachment: fixed; */
 }
 
@@ -97,17 +98,17 @@ color: #fff;
 /* Header */
 
 #header{
-  padding: 5% 0% 7% 0%;
+  padding: 5% 0% 0% 0%;
   width: 100%;
 }
 
 .container{
-  height: 300px;
+  height: auto;
 }
 
 .header{
   text-align: center;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 10% 10% 10%;
 }
 
 .welcome{
@@ -202,6 +203,8 @@ hr{
 .contact-note{
 font-family: 'Montserrat', sans-serif;
 padding: 0px 2%;
+font-weight: bold;
+font-size: 28px;
 }
 
 
