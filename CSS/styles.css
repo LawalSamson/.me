@@ -14,7 +14,7 @@ img{
 
 h1{
   color: black;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
 }
@@ -32,7 +32,7 @@ h4{
 }
 
 a{
-  color: #4AD35A;
+  color: black;
   display: inline;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -40,7 +40,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: #4AD35A;
+  color: #00BFE0;
 }
 
 
@@ -52,24 +52,26 @@ a:hover{
 .title{
   background-image: url('../images/bgg.jpg');
   background-size: cover;
-  padding bottom: 5%;
+  /* background-color: #00BFE0; */
+  padding bottom: 5% 5% 5% 5%;
   /* background-attachment: fixed; */
 }
 
 
 /* Navbar */
 
-.navbar-brand{
-  color: white;
+/* .navbar-brand{
+  color: black;
 }
 
 .navbar-brand:hover{
-    color: white;
+  color: black;
 }
 
 .nav-item{
   color: #808588;
   padding-top: 0px;
+  display: inline;
 }
 
 .nav-link{
@@ -90,9 +92,34 @@ color: #fff;
 
 .navbar-toggler{
   border: none;
+} */
+
+.navbar-brand{
+  float: left;
+  color: white;
+  padding: 1%;
 }
 
+.navbar-brand:hover{
+  color: white;
+}
 
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  float: right;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
 
 
 /* Header */
@@ -130,11 +157,20 @@ color: #fff;
 }
 
 .col-lg-6{
-  padding: 5% 0% 5% 0%;
+  padding: 0%;
+
+}
+
+.f1{
+  background-color: #DEF7E1;
+}
+
+.f2{
+    background-color: #DEF7E1;
 }
 
 .fas{
-  color: #426e86;
+  color: #00BFE0;
 }
 
 .pen{
