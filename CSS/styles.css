@@ -118,7 +118,8 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a:hover {
-  background-color: #777;
+  border-bottom: 2px solid;
+  border-color: white;
 }
 
 
