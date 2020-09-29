@@ -40,7 +40,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: #00BFE0;
+  color: black;
 }
 
 
@@ -60,28 +60,28 @@ a:hover{
 
 /* Navbar */
 
-/* .navbar-brand{
-  color: black;
+.navbar-brand{
+  color: white;
 }
 
 .navbar-brand:hover{
-  color: black;
+  color: white;
 }
 
 .nav-item{
-  color: #808588;
+  color: white;
   padding-top: 0px;
   display: inline;
 }
 
 .nav-link{
-color: #fff;
+color: #f8f1e1;
 }
 
 .nav-link:hover{
   border-bottom: 2px solid;
   border-color: #f8f1e1;
-  color: black;
+  color: grey;
   padding-bottom: 3px;
 }
 
@@ -92,35 +92,9 @@ color: #fff;
 
 .navbar-toggler{
   border: none;
-} */
-
-.navbar-brand{
-  float: left;
-  color: white;
-  padding: 1%;
 }
 
-.navbar-brand:hover{
-  color: white;
-}
 
-div.scrollmenu {
-  overflow: auto;
-  white-space: nowrap;
-}
-
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  float: right;
-  padding: 14px;
-  text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-  border-bottom: 2px solid;
-  border-color: white;
-}
 
 
 /* Header */
@@ -145,8 +119,22 @@ div.scrollmenu a:hover {
   font-weight: lighter;
   color: white;
   display: inline;
+  padding: 5% 5%;
 }
 
+
+
+
+/* Under-Construction */
+.construction{
+  width: 100%;
+  height: 100%;
+}
+
+#construction{
+color: gray;
+font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Cards */
