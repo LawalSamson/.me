@@ -121,7 +121,7 @@ font-family: 'Montserrat', sans-serif;
 
 /* Cards */
 
-.row{
+#row{
   padding: 50px 5% 20px 5%;
 }
 
@@ -160,8 +160,6 @@ hr{
 #footer{
   width: 100%;
   background-color: #fff;
-  padding: 20px;
-
 }
 
 
@@ -262,8 +260,8 @@ text-align: Center;
 
 #contact h1{
   text-align: left;
-  margin-left: 170px;
-  padding-left: 10px;
+  margin:50px 0px 0px 170px;
+  padding: 0px 0px 0px 10px;
   border-left: 6px solid orange;
 }
 .container{
@@ -311,7 +309,9 @@ input[type=submit]:hover {
   margin-top: 6px;
   padding: 20px;
 }
-
+.column.row{
+  padding: 0px 56px 50px 56px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
