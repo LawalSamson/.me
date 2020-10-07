@@ -6,24 +6,14 @@ body{
   padding: 0px;
 }
 
-img{
-  width: 100%;
-  height: 20%;
-}
-
 
 h1{
   color: black;
   font-size: 3rem;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
-h2{
-  display: inline;
-  font-size: 1.2rem;
-  padding: 0px;
-}
 
 h4{
   padding: 30px 0px 10px 0px;
@@ -31,98 +21,91 @@ h4{
   font-family: 'Roboto', sans-serif;
 }
 
-a{
-  color: black;
-  display: inline;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
-
-a:hover{
-  text-decoration: none;
-  color: black;
-}
-
 
 
 /* Title */
 
-
-
 .title{
-  background-image: url('../images/bgg.jpg');
-  background-size: cover;
-  /* background-color: #00BFE0; */
-  padding bottom: 5% 5% 5% 5%;
-  /* background-attachment: fixed; */
+  /* background-color: #d9dddc; */
+  border-radius: 0px 0px 30px 30px;
 }
-
 
 /* Navbar */
-
-.navbar-brand{
-  color: white;
-}
-
-.navbar-brand:hover{
-  color: white;
-}
-
-.nav-item{
-  color: white;
-  padding-top: 0px;
-  display: inline;
-}
-
-.nav-link{
-color: #f8f1e1;
-}
-
-.nav-link:hover{
-  border-bottom: 2px solid;
-  border-color: #f8f1e1;
-  color: grey;
-  padding-bottom: 3px;
+.container{
+    margin-bottom: 4%;
 }
 
 .navbar{
-  padding: 10px 20px;
-
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
-.navbar-toggler{
-  border: none;
+.fab{
+  cursor: pointer;
 }
 
+nav{
+  flex: right;;
+  padding-left: 60px;
+}
 
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 7px 5px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-bottom-color: #89776c;
+}
+
+nav ul li a.active{
+    border-bottom: 2px solid;
+    border-bottom-color: #89776c;
+}
 
 
 /* Header */
 
 #header{
-  padding: 5% 0% 0% 0%;
+
+  text-align: center;
+  padding:0%;
   width: 100%;
+  display: flex;
+  position: relative;
+  flex-basis: 60%;
 }
 
-.container{
-  height: auto;
-}
 
 .header{
-  text-align: center;
-  padding: 0px 0% 10% 0%;
+  width: 80%;
+  margin: auto;
 }
 
 .welcome{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-size: 18px;
-  font-weight: lighter;
-  color: white;
-  display: inline;
-  padding: 5% 5%;
+  font-weight: normal;
+  color: #202030;
 }
-
-
+#container{
+  padding-bottom: 2%;
+}
 
 
 /* Under-Construction */
@@ -140,9 +123,7 @@ font-family: 'Montserrat', sans-serif;
 /* Cards */
 
 .row{
-  /* background: url('../images/dot-grid.png') repeat 0 0; */
   padding: 50px 5% 20px 5%;
-  margin: 0px;
 }
 
 .col-lg-6{
@@ -150,30 +131,27 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-.f1{
-  background-color: #DEF7E1;
-}
-
-.f2{
-    background-color: #DEF7E1;
-}
-
 .fas{
-  color: #00BFE0;
+  color: #1b4353;
 }
 
 .pen{
   transform: rotate(135deg);
 }
+
+.first-note{
+  color: grey;
+  padding: 0% 17% 5% 17%;
+}
 .note{
   color: grey;
-  padding: 0px 17%;
+  padding: 0% 17% 5% 17%;
 }
 
 
 
 hr{
-  margin-top: 0px ;
+  margin-top: 20px ;
   width: 60%;
   color: grey;
 }
@@ -183,14 +161,22 @@ hr{
 #footer{
   width: 100%;
   background-color: #fff;
+  text-align:
+
 }
 
 
 
-.btn{
+button{
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-  background-color: #4AD35A;
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+  background: #1b4353;
+  outline: none;
+  border: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 150px;
   padding: 9px 20px;
   margin: 1px 0px 20px 0px;
 }
@@ -198,8 +184,8 @@ hr{
 .far{
   color: #fff;
 }
-.btn:hover{
-  background-color: #28A436;
+button:hover{
+  background-color: #1d70a2;
 }
 
 .footer-img{
@@ -232,30 +218,161 @@ p{
   padding: 0px 15%;
 }
 
-/* span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
+
+
+
+
+/* About Page */
+.aboutpage{
+  /* background-color: #d9dddc; */
+  margin: 0px 0px 70px 0px;
+}
+#about{
+  margin: 0px 35px;
+}
+.about{
+  border-left: 6px solid orange;
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+  margin-top: 30px;
+  width: 90%;
+}
+.about h1{
+  color: black;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;  font-weight: bold;
+}
+span{
+  color: orange;
+}
+.about-note{
+    font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #202030;
 }
 
-@keyframes caret {
-  50% {
-    border-color: transparent;
+
+
+
+/* Contact-Page */
+
+#contact{
+text-align: Center;
+}
+
+#contact h1{
+  text-align: left;
+  margin-left: 170px;
+  padding-left: 10px;
+  border-left: 6px solid orange;
+}
+.container{
+text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]:hover {
+  /* background-color: #45a049; */
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
-} */
+}
 
 
 
 
-/* fonts
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
- */
 
-/* colors
-Color Pallete
-#f2f2f2
-#0B9ED9
-#393073
-Positioning- Top/right/bottom/left
-*/
+
+
+
+
+
+
+@media only screen and (max-width:700px) {
+
+  .header{
+    width: 90%;
+    margin: auto;
+  }
+
+.first-note{
+  padding-bottom: 15%;
+}
+.note{
+  padding-bottom: 0px;
+}
+.row{
+  /* background: url('../images/dot-grid.png') repeat 0 0; */
+  padding: 50px 5% 20px 5%;
+}
+nav{
+  padding-left: 10px;
+}
+#about{
+  margin: 0px 0px 10px 0px;
+}
+#contact h1{
+  text-align: left;
+  margin-left: 40px;
+  padding-left: 10px;
+  border-left: 6px solid orange;
+}
+.about{
+  border-left: 6px solid orange;
+  text-align: left;
+  padding: 0px 0px 0px 10px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+}
