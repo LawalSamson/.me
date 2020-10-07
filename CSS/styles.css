@@ -369,7 +369,7 @@ nav ul li{
   margin: 0px 2px;
 }
 .form{
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
   margin: 0px;
 }
 .aboutpage{
@@ -380,8 +380,8 @@ nav ul li{
 }
 #contact h1{
   text-align: left;
-  margin-left: 30px;
-  padding-left: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
   border-left: 6px solid orange;
 }
 .about{
