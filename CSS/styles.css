@@ -266,7 +266,7 @@ text-align: Center;
   border-left: 6px solid orange;
 }
 .form{
-  padding: 0px;
+  padding: 0px 0px 0px 20px;
 }
 * {
   box-sizing: border-box;
@@ -369,7 +369,7 @@ nav ul li{
   margin: 0px 2px;
 }
 .form{
-  padding: 0px;
+  padding: 0px 0px 0px 20px;
   margin: 0px;
 }
 .aboutpage{
