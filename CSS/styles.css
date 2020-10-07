@@ -33,7 +33,7 @@ h4{
 /* Navbar */
 .container{
 margin: auto;
-text-align: center;
+padding: 0px;
 }
 
 .navbar{
@@ -46,6 +46,10 @@ text-align: center;
 
 .fab{
   cursor: pointer;
+}
+
+nav ul{
+padding-left: 40px;
 }
 nav ul li{
   display: inline-block;
@@ -340,6 +344,10 @@ h1{
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+.container{
+margin: 0px 10px;
+padding: 0px;
 }
 .header{
   width: 90%;
