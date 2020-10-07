@@ -46,12 +46,6 @@ h4{
 .fab{
   cursor: pointer;
 }
-
-nav{
-  flex: right;;
-  padding-left: 60px;
-}
-
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -339,11 +333,16 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width:700px) {
-
-  .header{
-    width: 90%;
-    margin: auto;
-  }
+h1{
+  color: black;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.header{
+  width: 90%;
+  margin: auto;
+}
 
 .first-note{
   padding-bottom: 15%;
@@ -356,8 +355,12 @@ input[type=submit]:hover {
   padding: 50px 5% 20px 5%;
 }
 nav{
-  padding-left: 10px;
+  padding-left: 0px;
 }
+nav ul li{
+  margin: 0px 2px;
+}
+
 #about{
   margin: 0px 0px 10px 0px;
 }
