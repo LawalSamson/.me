@@ -54,13 +54,13 @@ padding-left: 40px;
 nav ul li{
   display: inline-block;
   list-style: none;
-  margin: 0px 10px;
+  margin: 0px 20px;
 }
 
 nav ul li a{
   text-decoration: none;
   color: black;
-  padding:0px 5px 0px 5px;
+  padding:0px 5px 10px 5px;
   font-weight: bold;
   font-size: 17px;
 }
@@ -69,7 +69,7 @@ nav ul li a:hover{
   text-decoration: none;
   color: black;
   border-bottom: 2px solid;
-  border-bottom-color: #89776c;
+  border-bottom-color: orange;
 }
 
 nav ul li a.active{
@@ -121,7 +121,7 @@ font-family: 'Montserrat', sans-serif;
 
 /* Cards */
 
-#row{
+.row{
   padding: 50px 5% 20px 5%;
 }
 
@@ -260,14 +260,13 @@ text-align: Center;
 
 #contact h1{
   text-align: left;
-  margin:50px 0px 0px 170px;
+  margin: 50px 0px 0px 125px;
   padding: 0px 0px 0px 10px;
   border-left: 6px solid orange;
 }
-.container{
-text-align: left;
+.form{
+  padding: 0px;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -298,7 +297,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  /* background-color: #f2f2f2; */
+  text-align: left;
   padding: 10px;
 }
 
@@ -309,7 +308,7 @@ input[type=submit]:hover {
   margin-top: 6px;
   padding: 20px;
 }
-.column.row{
+#row{
   padding: 0px 56px 50px 56px;
 }
 /* Clear floats after the columns */
@@ -346,7 +345,7 @@ h1{
   font-weight: bold;
 }
 .container{
-margin: 0px 10px;
+margin: 0px 0px;
 padding: 0px;
 }
 .header{
@@ -370,6 +369,10 @@ nav{
 nav ul li{
   margin: 0px 2px;
 }
+.form{
+  padding: 0px;
+  margin: 0px;
+}
 .aboutpage{
   width: 100%;
 }
@@ -378,7 +381,7 @@ nav ul li{
 }
 #contact h1{
   text-align: left;
-  margin-left: 40px;
+  margin-left: 30px;
   padding-left: 10px;
   border-left: 6px solid orange;
 }
