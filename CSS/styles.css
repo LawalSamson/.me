@@ -153,7 +153,6 @@ font-family: 'Montserrat', sans-serif;
 hr{
   margin-top: 20px ;
   width: 60%;
-  color: grey;
 }
 
 /* Footer */
@@ -192,7 +191,7 @@ button:hover{
 }
 
 .footer-img:hover{
-  color: grey;
+  color: orange;
 }
 
 .copyright{
@@ -367,7 +366,7 @@ nav{
   padding-left: 0px;
 }
 nav ul li{
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 /* -------------About_page--------------- */
