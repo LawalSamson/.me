@@ -33,7 +33,7 @@ h4{
 /* Navbar */
 .container{
 margin: auto;
-padding: 0px;
+padding: 0px 0px 10px 0px;
 }
 
 .navbar{
