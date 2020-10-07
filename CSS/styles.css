@@ -42,6 +42,7 @@ padding: 0px 0px 0px 0px;
   margin: auto;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .fab{
@@ -57,24 +58,24 @@ nav ul li{
   margin: 0px 20px;
 }
 
-nav ul li a{
+nav a{
   text-decoration: none;
   color: black;
   font-weight: bold;
   padding: 0px 0px 7px 0px;
   font-size: 17px;
+  display: block;
+  border-bottom: 2px solid transparent;
 }
 
-nav ul li a:hover{
+nav a:hover{
   text-decoration: none;
   color: black;
-  border-bottom: 2px solid;
-  border-bottom-color: orange;
+  border-bottom: 2px solid orange;
 }
 
-nav ul li a.active{
-    border-bottom: 2px solid;
-    border-bottom-color: #89776c;
+nav li.active{
+    border-bottom: 2px solid orange;
 }
 
 
@@ -182,7 +183,7 @@ font-weight: normal;
   color: #fff;
 }
 button:hover{
-  background-color: #1d70a2;
+  background-color: orange;
 }
 
 .footer-img{
@@ -191,7 +192,7 @@ button:hover{
 }
 
 .footer-img:hover{
-  color: grey;
+  color: orange;
 }
 
 .copyright{
@@ -260,6 +261,7 @@ text-align: Center;
 }
 
 #contact h1{
+  font-size: 3rem;
   text-align: left;
   margin: 50px 0px 0px 125px;
   padding: 0px 0px 0px 10px;
@@ -292,7 +294,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  /* background-color: #45a049; */
+background-color: orange;
 }
 
 /* Style the container/contact section */
@@ -377,11 +379,8 @@ nav ul li{
 #about{
   margin: 0px 0px 10px 0px;
 }
-#contact h1{
-  text-align: left;
-  margin-left: 10px;
-  padding-left: 5px;
-  border-left: 6px solid orange;
+.about h1{
+  font-size: 2rem;
 }
 .about{
   border-left: 6px solid orange;
@@ -393,7 +392,13 @@ nav ul li{
 
 
 /* ---------Contact_page--------- */
-
+#contact h1{
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: 6px solid orange;
+}
 .form{
   padding: 0px 0px 0px 0px;
   margin: 0px;
