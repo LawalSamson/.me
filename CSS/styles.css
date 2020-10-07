@@ -33,7 +33,7 @@ h4{
 /* Navbar */
 .container{
 margin: auto;
-padding: 0px 0px 10px 0px;
+padding: 0px 0px 0px 0px;
 }
 
 .navbar{
@@ -42,6 +42,7 @@ padding: 0px 0px 10px 0px;
   margin: auto;
   display: flex;
   align-items: center;
+  padding: 0px;
 }
 
 .fab{
@@ -296,9 +297,7 @@ input[type=submit]:hover {
 
 /* Style the container/contact section */
 .container {
-  border-radius: 5px;
   text-align: left;
-  padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
