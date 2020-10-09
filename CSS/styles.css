@@ -331,17 +331,21 @@ background-color: orange;
 @media only screen and (max-width:700px) {
 
 h1{
-  padding-top: 20px;
+  padding-top: 0px;
   color: black;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 #header{
-  height: 400px;
+  height: 200px;
   text-align: center;
   padding:0%;
   width: 100%;
+}
+#container{
+text-align: center;
+padding: 40px 0px 0px 0px;
 }
 .container{
 margin: 0px 0px;
@@ -350,6 +354,12 @@ padding: 0px;
 .header{
   width: 90%;
   margin: auto;
+}
+.welcome{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #202030;
 }
 img{
   width: 100%;
