@@ -28,7 +28,7 @@ h4{
 /* Title */
 
 .title{
-  background-color: #d9dddc;
+  /* background-color: #d9dddc; */
 }
 
 /* Navbar */
@@ -114,7 +114,6 @@ img{
 /* Cards */
 
 .row{
-  background-color: #d9dddc;
   padding: 60px 5% 50px 5%;
   margin: 0px;
 }
