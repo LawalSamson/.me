@@ -354,11 +354,20 @@ padding: 0px;
 img{
   width: 100%;
 }
+
+
+
+/* Cards */
+
 .first-note{
   padding-bottom: 15%;
 }
 .note{
   padding-bottom: 0px;
+}
+.col-lg-6{
+  padding: 0%;
+  background-color: white;
 }
 .row{
   /* background: url('../images/dot-grid.png') repeat 0 0; */
