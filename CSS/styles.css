@@ -345,6 +345,10 @@ h2{
 
 /* Navbar */
 
+.navbar{
+margin: 0px;
+}
+
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   cursor: pointer;
