@@ -21,7 +21,8 @@ h1{
 h4{
   padding: 30px 0px 10px 0px;
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
 }
 
 h6{
@@ -39,6 +40,10 @@ h6{
 
 /* Navbar */
 
+.mobilehr{
+  display: none;
+}
+
 .navbar{
 margin: 0px 20px;
 }
@@ -50,17 +55,24 @@ margin: 0px 20px;
   font-size: 30px;
 }
 
+.navbar-brand:hover{
+  color: black;
+}
 .navbar-toggler {
 border: none;
 }
 
+
+.navbar-toggler-icon {
+padding-top: 5px;
+}
 nav span{
   font-size: 25px;
 }
 
 
 .nav-link{
-  margin: 0px 10px;
+  margin: 0px 20px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: black;
@@ -77,6 +89,19 @@ nav span{
 }
 
 /* Header */
+
+.big{
+  font-family: 'Anton', sans-serif;
+  font-size: 250px;
+  position: absolute;
+  color: #d9dddc;
+  font-weight: 400;
+  top: 0;
+  bottom: 150px;
+  z-index: -1;
+  line-height: 1;
+  filter: blur(12px);
+}
 
 #header{
   height: 500px;
@@ -117,6 +142,7 @@ img{
 /* Cards */
 
 .row{
+  background-color: orange;
   padding: 60px 5% 50px 5%;
   margin: 0px;
   /* background-color: orange; */
@@ -127,7 +153,7 @@ img{
 }
 
 .fas{
-  color: #1b4353;
+  color: orange;
 }
 
 .pen{
@@ -343,12 +369,32 @@ h2{
   color: orange;
 }
 
+.big{
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  position: absolute;
+  color: #d9dddc;
+  font-weight: 400;
+  top: 50px;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(8px);
+}
+
 /* Navbar */
+
+.collapse{
+  background-color: gray;
+}
 
 .navbar{
 margin: 0px;
 }
 
+.mobilehr{
+  display: block;
+  width: 20%;
+}
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   cursor: pointer;
@@ -370,11 +416,13 @@ margin: 0px;
 
 .nav-link:hover{
   text-decoration: none;
-  color: black;
+  color: orange;
   border: none;
 }
 
-
+.navbar-toggler-icon {
+color: black;
+}
 /* Header */
 
 #header{
