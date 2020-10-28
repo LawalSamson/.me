@@ -90,7 +90,7 @@ nav span{
 
 /* Header */
 
-.big{
+/* .big{
   font-family: 'Anton', sans-serif;
   font-size: 250px;
   position: absolute;
@@ -101,7 +101,7 @@ nav span{
   z-index: -1;
   line-height: 1;
   filter: blur(12px);
-}
+} */
 
 #header{
   height: 500px;
@@ -145,7 +145,7 @@ img{
   background-color: orange;
   padding: 60px 5% 50px 5%;
   margin: 0px;
-  /* background-color: orange; */
+  position: relative;
 }
 
 .col-lg-4{
@@ -286,6 +286,7 @@ text-align: Center;
   margin-top: 30px;
 }
 .form{
+  background-color: white;
   padding: 0px;
 }
 * {
