@@ -11,7 +11,7 @@ $email_from =  'New Form Submission';
 
 $email_from =  "User Name: $name.\n".
                             "User Email: $visitor_email.\n".
-                            "User Message: $message.\n";
+                            "User Message: $message.\n".
                             "User Country: $country.\n";
 
 $to = "Lawal4211@gmail.com";
