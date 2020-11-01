@@ -579,7 +579,7 @@ img{
   transition: 0.3s;
   display: inline;
   float: left;
-  margin: 30px 0px;
+  margin: 30px 10px;
   height: 350px;
   width: 100%;
 }
@@ -598,6 +598,9 @@ img{
   margin-top: 30px;
 }
 
+.blog p{
+  padding-bottom: auto;
+}
 .blogcards{
 margin: 30px 0px;
 }
