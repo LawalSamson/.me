@@ -578,7 +578,7 @@ img{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   display: block;
-    margin: 30px 30px;
+  margin: 30px 20px;
   height: auto;
   width: 90%;
 }
@@ -600,8 +600,14 @@ img{
 .blog p{
   padding-bottom: auto;
 }
+
 .blogcards{
 margin: 30px 0px;
 }
+
+.blog .card .container {
+  padding: 2px 16px;
+}
+
 
 }
