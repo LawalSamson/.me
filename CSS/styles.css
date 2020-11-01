@@ -364,14 +364,62 @@ background-color: orange;
 }
 
 
+/* Blog Page */
+
+.blog h1{
+  font-size: 4rem;
+  text-align: center;
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 10px;
+  border-left: 6px solid orange;
+  margin-top: 30px;
+}
+
+.blog .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline;
+  float: left;
+  margin: 50px 15px;
+  height: 350px;
+  width: 30%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.blog .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: orange;
+}
+
+/* Add some padding inside the card container */
+.blog .card .container {
+  padding: 2px 16px;
+}
+
+.blogcards{
+margin: 30px 90px;
+}
 
 
+.card h4{
+  padding: 40px 0px 0px 0px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.card p{
+  font-size: 15px;
+  padding: 0px 0px;
+}
+
+.card img{
+  padding-top: 10px;
+}
 
 
-
-
-
-
+/* Media Query */
 
 @media only screen and (max-width:500px) {
 
@@ -520,6 +568,25 @@ img{
 .form{
   padding: 0px 0px 0px 0px;
   margin: 0px;
+}
+
+
+
+/* Blog Page */
+.blog .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline;
+  float: left;
+  margin: 50px 10px;
+  height: 350px;
+  width: 100%;
+}
+
+.card img{
+  padding: 10px 10px 0px 10px;
+
 }
 
 }
