@@ -375,48 +375,52 @@ background-color: orange;
   margin-top: 30px;
 }
 
-.blog .card {
+.blogrow{
+  background-color: white;
+  padding: 0px;
+  margin: 50px 30px;
+  /* text-align: center; */
+}
+
+.blogcol {
+
+}
+
+.blogpad{
   /* Add shadows to create the "card" effect */
+  border: 1px grey;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  display: inline;
-  float: left;
-  margin: 50px 15px;
   height: 350px;
-  width: 30%;
+  margin: 30px 0px;
+  padding: 0px 10px;
 }
 
 /* On mouse-over, add a deeper shadow */
-.blog .card:hover {
+.blogpad:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   background-color: orange;
 }
 
-/* Add some padding inside the card container */
-.blog .card .container {
-  padding: 2px 16px;
+.blogrow img{
+  padding-top: 20px;
+  width: 80%;
 }
 
-.blogcards{
-margin: 30px 90px;
-}
-
-
-.card h4{
+.blogrow h4{
   padding: 40px 0px 0px 0px;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  text-align: left;
 }
 
-.card p{
+.blogrow p{
   font-size: 15px;
   padding: 0px 0px;
+  text-align: left;
 }
 
-.card img{
-  padding-top: 10px;
-}
 
 
 /* Media Query */
@@ -450,7 +454,8 @@ h2{
 /* Navbar */
 
 /* .collapse{
-  background-color: #d9dddc;
+  background-color: #bcb6ae;
+  padding-top: 5px;
 } */
 
 .navbar{
@@ -571,43 +576,63 @@ img{
 }
 
 
-
 /* Blog Page */
-.blog .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  display: block;
-  margin: 30px 20px;
-  height: auto;
-  width: 90%;
-}
-
-.card img{
-  padding: 10px 10px 0px 10px;
-}
-
 
 .blog h1{
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 0px 6px;
   border-left: 6px solid orange;
   margin-top: 30px;
 }
 
-.blog p{
-  padding-bottom: auto;
+.blogrow{
+  background-color: white;
+  padding: 0px;
+  margin: 30px 70px;
+  /* text-align: center; */
 }
 
-.blogcards{
-margin: 30px 0px;
+.blogcol {
+
 }
 
-.blog .card .container {
-  padding: 2px 16px;
+.blogpad{
+  /* Add shadows to create the "card" effect */
+  border: 1px grey;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 300px;
+  margin: 0px 0px;
+  padding: 0px 10px;
 }
+
+/* On mouse-over, add a deeper shadow */
+.blogpad:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: orange;
+}
+
+.blogrow img{
+  padding-top: 20px;
+  width: 80%;
+}
+
+.blogrow h4{
+  padding: 20px 0px 0px 0px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.blogrow p{
+  font-size: 15px;
+  padding: 0px 0px;
+  text-align: left;
+}
+
 
 
 }
