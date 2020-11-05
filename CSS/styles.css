@@ -425,7 +425,7 @@ background-color: orange;
 }
 
 .blogrow h4{
-  padding: 40px 0px 0px 0px;
+  padding: 40px 15px 0px 11px;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -434,7 +434,7 @@ background-color: orange;
 
 .blogrow p{
   font-size: 15px;
-  padding: 0px 0px;
+  padding: 0px 15px;
   text-align: left;
 }
 
@@ -665,7 +665,7 @@ img{
 }
 
 .blogrow h4{
-  padding: 13px 0px 0px 0px;
+  padding: 13px 15px 0px 12px;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -674,7 +674,7 @@ img{
 
 .blogrow p{
   font-size: 15px;
-  padding: 0px 0px;
+  padding: 0px 10px;
   text-align: left;
 }
 
