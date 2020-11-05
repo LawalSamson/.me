@@ -346,7 +346,7 @@ background-color: orange;
 /* Style the container/contact section */
 .contactcontainer {
   text-align: left;
-  margin: 70px 0px 0px 30px;
+  margin: 70px 0px 0px 0px;
 }
 
 /* Create two columns that float next to eachother */
