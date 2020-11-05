@@ -192,8 +192,6 @@ hr{
 #footer{
   width: 100%;
   background-color: #fff;
-  position: relative;
-  top: -13;
 }
 
 
@@ -202,8 +200,9 @@ hr{
   color: black;
  font-family: 'Montserrat', sans-serif;
 font-weight: normal;
-  border-color:  orange;
-  border: 2px solid;
+  border-color: orange;
+  border: 2px solid orange;
+  background-color: white;
   border-radius: 6px;
   cursor: pointer;
   width: 150px;
@@ -226,7 +225,8 @@ em:hover{
 }
 
 .btn:hover{
-  border-color: orange;
+  color: white;
+  background-color: orange;
   width: 170px;
   transition: all 0.3s ease 0.3s;
 }
@@ -391,7 +391,6 @@ background-color: orange;
 }
 
 .blogcol {
-
 }
 
 .blogpad{
@@ -576,8 +575,9 @@ img{
   margin-bottom: 0px;
 }
 
-.col-lg-4{
-  padding: 0px 0px;
+.col-lg-6{
+  background-color: #df861d;
+  margin: 40px initial initial initial;
 }
 
 
@@ -665,7 +665,7 @@ img{
 }
 
 .blogrow h4{
-  padding: 20px 15px 0px 12px;
+  padding: 30px 15px 0px 12px;
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
