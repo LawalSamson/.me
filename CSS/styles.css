@@ -7,22 +7,8 @@ body{
 }
 
 
-h1{
-  margin: 0px;
-  padding-top: 80px;
-  color: black;
-  font-size: 3.4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
 
 
-h4{
-  padding: 10px 0px 20px 0px;
-  color: black;
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
-}
 
 h6{
   font-family: 'Montserrat', sans-serif;
@@ -96,14 +82,16 @@ nav span{
 /* Header */
 
 #header{
+  position: relative;
+  bottom: -70px;
   background-color: white;
-  height: 500px;
+  height: 400px;
   text-align: center;
   padding:0% 0px 50px 0px;
   width: 100%;
   transform: skewY(5deg);
-  /* background-image: url('../images/cloud.png');
-  background-size: 60%;
+  /* background-image: url('../images/bgg.jpg');
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center; */
 }
@@ -124,13 +112,25 @@ nav span{
   animation-iteration-count: infinite; */
 }
 
-#container{
-transform: skewY(-5deg);
-text-align: center;
-padding: 80px 0px 0px 0px;
-margin-top: 0px;
+.color1{
+  border-radius:   36% 64% 42% 58% / 30% 30% 70% 70% ;
+  background-color: #7B96A3;
 }
 
+#container{
+   transform: skewY(-5deg);
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+
+#container h1{
+  margin: 0px;
+  padding-top: 80px;
+  color: black;
+  font-size: 3.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 
 
 /* Cards */
@@ -139,17 +139,29 @@ margin-top: 0px;
 
 
 .cards{
-  background-color: orange;
+  text-align: center;
+  background-color: #FFF8EB;
   padding: 130px 5% 50px 5%;
   margin: 0px 0px 0px 0px;
-  position: relative;
+  /* position: relative;
   top: -70px;
-  bottom: 0px;
+  bottom: 0px; */
   z-index: -1;
 }
 
-.col-lg-6{
-  padding:80px 5% 50px 5%;
+.col-lg-4{
+  border: 20px solid #FFF8EB;
+  border-radius: 50px;
+  padding: 80px 2% 50px 2%;
+  background-color: #f5f5f5;
+}
+
+
+.col-lg-4 h4{
+  padding: 10px 0px 20px 0px;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
 }
 
 .fas{
@@ -163,8 +175,8 @@ margin-top: 0px;
 
 .note{
   font-size: 16px;
-  color: white;
-  padding: 0% 2%;
+  color: #525252;
+  padding: 0% 2% 30px 2%;
 }
 
 
@@ -173,6 +185,15 @@ hr{
   margin-top: 0px ;
   width: 40%;
 }
+
+
+.build{
+  width: 100%;
+  height: 400px;
+  background-color: #7B96A3;
+  text-align: center;
+}
+
 
 /* Footer */
 
@@ -184,16 +205,16 @@ hr{
 
 
 .btn{
-  color: black;
- font-family: 'Montserrat', sans-serif;
-font-weight: normal;
-  border-color: orange;
-  border: 2px solid orange;
-  background-color: white;
-  border-radius: 6px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: normal;
+  background: linear-gradient(to left, #FFBB33, #FFEBC2);
+  border-radius: 25px;
+  border: none;
   cursor: pointer;
-  width: 150px;
-  padding: 9px 20px;
+  width: 300px;
+  padding: 10px 30px;
   margin: 9px 0px 20px 0px;
 }
 
@@ -206,9 +227,8 @@ font-weight: bold;
 
 .btn:hover{
   color: white;
-  background-color: orange;
-  width: 170px;
-  transition: all 0.3s ease 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: ease-in-out 0.2s;
 }
 
 .footer-img{
@@ -228,6 +248,11 @@ font-weight: bold;
   padding: 0px;
 }
 
+
+#footer h1{
+  font-size: 2rem;
+  color: #7B96A3;
+}
 .contact-note{
 margin-bottom: 1px;
 font-family: 'Montserrat', sans-serif;
@@ -505,20 +530,21 @@ color: black;
 /* Header */
 
 #header{
-  margin-top: 24px;
-  height: 210px;
+  margin-top: 0px;
+  height: 280px;
   text-align: center;
   padding: 0px 0px 0px 0%;
   width: 100%;
 }
 #container{
 text-align: center;
-padding: 0px 0px 0px 0px;
-margin-top: 60px;
+padding: 0px 0px 50px 0px;
+margin-top: 0px;
 }
+
 .header{
   width: 90%;
-  margin: auto;
+  margin: 0px;
 }
 .welcome{
   font-family: 'Maven Pro', sans-serif;
@@ -540,7 +566,7 @@ margin-top: 60px;
 }
 
 .col-lg-6{
-  background-color: #df861d;
+  background-color: #f5f5f5;
   margin: 40px initial initial initial;
 }
 
