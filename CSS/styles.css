@@ -177,6 +177,31 @@ nav span{
   font-size: 18px;
   color: #525252;
   padding: 5% 2% 6px 2%;
+
+}
+
+.view{
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.viewmore{
+  padding: 10px 20px;
+  background-color: #171820;
+  color: white;
+  border: none;
+}
+
+.arrow{
+  color: white;
+  padding-left: 10px;
+}
+.viewmore:hover{
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: ease-in-out 0.2s;
 }
 
 
@@ -208,11 +233,12 @@ bottom: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   padding: 250px 0px 0px 0px;
+  margin: 0px;
 }
 
 .build p{
-  padding-top: 5px;
-  color: #fff;
+  margin: 0px;
+    color: #fff;
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -222,7 +248,7 @@ bottom: 0;
 /* Footer */
 
 #footer{
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   background-color: #fff;
 }
@@ -240,7 +266,7 @@ bottom: 0;
   cursor: pointer;
   width: 300px;
   padding: 10px 30px;
-  margin: 9px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 
@@ -258,7 +284,7 @@ font-weight: bold;
 
 .footer-img{
   color: #000;
-  padding: 5px 12px 5px 12px;
+  padding: 0px 12px 5px 12px;
 }
 
 .footer-img:hover{
@@ -276,7 +302,7 @@ font-weight: bold;
 
 #footer h1{
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: orange;
 }
 .contact-note{
@@ -635,6 +661,8 @@ margin-top: 0px;
   font-size: 1.4rem;
   font-weight: normal;
   color: #202030;
+  margin-left: 50px;
+text-align: center;
 }
 
 
@@ -651,18 +679,50 @@ margin-top: 0px;
 
 .col-lg-4{
   margin: 20px initial initial initial;
+
 }
 
+.view{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.viewmore{
+  padding: 10px 20px;
+  background-color: #171820;
+  color: white;
+  border: none;
+}
+
+.arrow{
+  color: white;
+  padding-left: 10px;
+}
+.viewmore:hover{
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: ease-in-out 0.2s;
+}
 /* -----------FOOTER -------------*/
 
 .build{
-  height: 300px;
+  height: 250px;
+  padding: 0px;
 }
 
 .build h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  padding: 50px 0px 0px 0px;
+  font-size: 1.7rem;
+  padding: 100px 5px 0px 5px;
+  margin: 0px;
+}
+
+.build p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px 7%;
 }
 
 .btn{
@@ -670,7 +730,6 @@ margin-top: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   font-weight: normal;
-  background: linear-gradient(to left, #FFBB33, #FFEBC2);
   border-radius: 25px;
   border: none;
   cursor: pointer;
@@ -686,6 +745,43 @@ margin-top: 0px;
 }
 
 
+#footer{
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+.footer-img{
+  color: #000;
+  padding: 0px 12px 5px 12px;
+}
+
+.footer-img:hover{
+  color: orange;
+}
+
+.copyright{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-size: 13px;
+  color: grey;
+  padding: 0px;
+}
+
+
+#footer h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: orange;
+}
+.contact-note{
+margin-bottom: 1px;
+font-family: 'Montserrat', sans-serif;
+padding: 0px 4% 0px 4%;
+font-weight: bold;
+font-size: 15px;
+}
 
 
 
