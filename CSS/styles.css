@@ -66,7 +66,7 @@ nav span{
   margin: 0px 20px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: black;
+  color: #171820;
   font-weight: bold;
   padding: 0px 0px 7px 0px;
   font-size: 17px;
@@ -76,7 +76,7 @@ nav span{
 .nav-link:hover{
   text-decoration: none;
   color: black;
-  border-bottom: 2px solid orange;
+  border-bottom: 3px solid orange;
 }
 
 /* Header */
@@ -120,12 +120,11 @@ nav span{
 #container{
    transform: skewY(-5deg);
   text-align: center;
-  padding: 50px 0px 0px 0px;
 }
 
 #container h1{
   margin: 0px;
-  padding-top: 80px;
+  padding-top: 70px;
   color: black;
   font-size: 3.4rem;
   font-family: 'Montserrat', sans-serif;
@@ -141,7 +140,7 @@ nav span{
 .cards{
   text-align: center;
   background-color: orange;
-  padding: 130px 5% 50px 5%;
+  padding: 150px 5% 50px 5%;
   margin: 0px 0px 0px 0px;
   /* position: relative;
   top: -70px;
@@ -151,14 +150,14 @@ nav span{
 
 .col-lg-4{
   border: 30px solid orange;
-  border-radius: 50px;
-  padding: 80px 4% 50px 4%;
-  background-color: #f5f5f5;
+  border-radius: 60px;
+  padding: 80px 2% 30px 2%;
+  background-color: #fff;
 }
 
 
 .col-lg-4 h4{
-  padding: 10px 0px 20px 0px;
+  padding: 60px 0px 0px 0px;
   color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -174,10 +173,9 @@ nav span{
 
 
 .note{
-  font-size: 18px;
-  color: #525252;
-  padding: 5% 2% 6px 2%;
-
+  font-size: 17px;
+  color: gray;
+  padding: 5% 0% 20px 0%;
 }
 
 .view{
@@ -344,7 +342,7 @@ span{
 }
 .about-note{
     font-family: 'Maven Pro', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   color: #202030;
 }
@@ -633,19 +631,19 @@ color: black;
 
 #header{
   margin-top: 0px;
-  height: 280px;
+  height: 200px;
   text-align: center;
   padding: 0px 0px 0px 0%;
   width: 100%;
 }
 #container{
 text-align: center;
-padding: 0px 0px 50px 0px;
+padding: 0px 0px 0px 0px;
 margin-top: 0px;
 }
 
 #container h1{
-  padding-top: 0px;
+  padding: 0px;
   color: black;
   font-size: 2.3rem;
   font-family: 'Montserrat', sans-serif;
@@ -656,13 +654,14 @@ margin-top: 0px;
   width: 90%;
   margin: 0px;
 }
+
 .welcome{
   font-family: 'Maven Pro', sans-serif;
   font-size: 1.4rem;
   font-weight: normal;
   color: #202030;
   margin-left: 50px;
-text-align: center;
+  text-align: center;
 }
 
 
@@ -678,6 +677,7 @@ text-align: center;
 }
 
 .col-lg-4{
+  border: 15px solid orange;
   margin: 20px initial initial initial;
 
 }
@@ -699,6 +699,7 @@ text-align: center;
   color: white;
   padding-left: 10px;
 }
+
 .viewmore:hover{
   padding: 10px 30px;
   color: white;
@@ -708,14 +709,14 @@ text-align: center;
 /* -----------FOOTER -------------*/
 
 .build{
-  height: 250px;
+  height: 230px;
   padding: 0px;
 }
 
 .build h2{
   font-family: 'Raleway', sans-serif;
   font-size: 1.7rem;
-  padding: 100px 5px 0px 5px;
+  padding: 80px 5px 0px 5px;
   margin: 0px;
 }
 
