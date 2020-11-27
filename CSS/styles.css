@@ -126,7 +126,7 @@ nav span{
   margin: 0px;
   padding-top: 70px;
   color: black;
-  font-size: 3.4rem;
+  font-size: 3.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -150,14 +150,15 @@ nav span{
 
 .col-lg-4{
   border: 30px solid orange;
-  border-radius: 60px;
+  border-radius: 50px;
   padding: 80px 2% 30px 2%;
   background-color: #fff;
 }
 
 
 .col-lg-4 h4{
-  padding: 60px 0px 0px 0px;
+
+  padding: 40px 0px 0px 0px;
   color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -205,45 +206,41 @@ nav span{
 
 
 
-.build{
+#portfolio{
+  margin: 10px 0px;
+  height: auto;
   width: 100%;
-  height: 600px;
-  background-image: url('../images/bg.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.project{
   text-align: center;
-  position: relative;
-
-}
-
-.build .layer{
-background-color:  rgba(65, 87, 95,0.4);
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-bottom: 0;
-}
-
-.build h2{
-  color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 5rem;
-  padding: 250px 0px 0px 0px;
-  margin: 0px;
+  padding: 20px 0px;
+    font-weight: bold;
 }
 
-.build p{
-  margin: 0px;
-    color: #fff;
-  font-size: 2rem;
-  font-family: 'Raleway', sans-serif;
+.project-img{
+  width: 95%;
 }
 
+.project-header{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
 
+.project-note{
+  font-size: 14px;
+  text-align: center;
+  color: grey;
+  padding: 0px 10px;
+}
 
 /* Footer */
+
+hr{
+  width: 60%;
+}
 
 #footer{
   margin-top: 40px;
@@ -670,6 +667,7 @@ margin-top: 0px;
 
 .note{
   padding-bottom: 0px;
+  font-size: 15px;
 }
 
 .row{
@@ -677,9 +675,10 @@ margin-top: 0px;
 }
 
 .col-lg-4{
-  border: 15px solid orange;
+  border: 10px solid orange;
   margin: 20px initial initial initial;
-
+  border-radius: 25px;
+    padding: 40px 2% 30px 2%;
 }
 
 .view{
@@ -706,25 +705,18 @@ margin-top: 0px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: ease-in-out 0.2s;
 }
+
+/* ---------------Project-------------- */
+
+.project{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 /* -----------FOOTER -------------*/
-
-.build{
-  height: 230px;
-  padding: 0px;
-}
-
-.build h2{
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.7rem;
-  padding: 80px 5px 0px 5px;
-  margin: 0px;
-}
-
-.build p{
-  font-size: 15px;
-  margin: 0px;
-  padding: 0px 7%;
-}
 
 .btn{
   color: white;
@@ -747,7 +739,7 @@ margin-top: 0px;
 
 
 #footer{
-  margin-top: 40px;
+  margin-top: 10px;
   width: 100%;
   background-color: #fff;
 }
