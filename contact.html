@@ -4,6 +4,12 @@
       <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Contact</title>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Maven+Pro&family=Montserrat&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
@@ -36,23 +42,23 @@
                     <i class="fas fa-bars"></i>
                 </span>
               </button>
-
+      
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
-                  <!-- <li class="nav-item">
+                  <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="About.html">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
                   </li>
                 </ul>
               </div>
@@ -65,17 +71,18 @@
 
     <div id="Form">
       <div class="contactcontainer">
-    <div class="row form">
+    <div class="form">
       <div class="column">
         <form action="content.php">
-          <label for="fname">Name</label>
-          <input type="text" id="fname" name="name" placeholder="Full Name" required>
-          <label for="country">E-mail</label>
+          <!-- <label for="fname">Name</label> -->
+          <input type="text" id="fname" name="name" placeholder="First Name" required> <input type="text" id="fname" name="name" placeholder="Last Name" required>
+          
+          <!-- <label for="country">E-mail</label> -->
           <input type="text" id="fname" name="email" placeholder="Email" required>
-          <label for="country">Country</label>
+          <!-- <label for="country">Country</label> -->
           <input type="text" id="fname" name="country" placeholder="Country" required>
           </select>
-          <label for="subject">Message</label>
+          <!-- <label for="subject">Message</label> --> 
           <textarea id="subject" name="message" placeholder="Write something..." style="height:170px"></textarea>
           <input type="submit" value="Submit">
         </form>
