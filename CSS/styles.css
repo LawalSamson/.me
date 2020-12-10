@@ -309,6 +309,7 @@ font-weight: bold;
   color: orange;
   margin-bottom: 0px;;
 }
+
 .contact-note{
 margin-bottom: 1px;
 font-family: 'Montserrat', sans-serif;
@@ -324,8 +325,6 @@ color: #171820;
 
 
 /* About Page */
-.aboutpage{
-}
 
 #about{
   margin: 0px;
@@ -375,6 +374,35 @@ span{
 
 
 /* Contact-Page */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  font-family: 'roboto', sans-serif;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+  font-family: 'roboto', sans-serif;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: grey;
+  font-family: 'roboto', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: grey;
+  font-family: 'roboto', sans-serif;
+}
+
+
+.contact-page-note{
+  margin-bottom: 5px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+}
+
 #form{
   width: 1000px;
 }
@@ -385,7 +413,7 @@ text-align: Center;
 #contact h1{
   font-size: 3rem;
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px 20px 0px;
   font-family: 'Montserrat', sans-serif;  font-weight: bold;
 
 }
@@ -419,8 +447,7 @@ input[type=submit] {
   padding: 12px 100px;
   border: none;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'roboto', sans-serif;}
 
 input[type=submit]:hover {
 background-color: #3E8E41;
@@ -459,68 +486,6 @@ text-align: center;
 }
 
 
-/* Blog Page */
-
-.blog h1{
-  font-size: 4rem;
-  text-align: center;
-  margin: 0px 0px 0px 20px;
-  padding: 0px 0px 0px 10px;
-  border-left: 6px solid orange;
-  margin-top: 30px;
-}
-
-.blogrow{
-  background-color: white;
-  padding: 0px;
-  margin: 80px 30px;
-  /* text-align: center; */
-}
-
-
-.blogpad{
-  /* Add shadows to create the "card" effect */
-  border: 1px grey;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  height: 350px;
-  margin: 30px 0px;
-  padding: 0px 10px;
-}
-
-.blogpad a{
-  text-decoration: none;
-    color: black;
-}
-
-.blogpad a:hover{
-  text-decoration: none;
-
-}
-
-/* On mouse-over, add a deeper shadow */
-.blogpad:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.blogrow img{
-  padding-top: 20px;
-  width: 80%;
-}
-
-.blogrow h4{
-  padding: 40px 15px 0px 11px;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  text-align: left;
-}
-
-.blogrow p{
-  font-size: 15px;
-  padding: 0px 15px;
-  text-align: left;
-}
 
 
 
@@ -532,35 +497,9 @@ text-align: center;
 
 
 
-/* ------------------------BLOGS--------------------- */
-
-.Beginning{
-  text-align: left;
-}
-
-.Beginning h2{
-  font-size: 4rem;
-  text-align: left;
-  margin: 30px 0px 0px 0px;
-  padding: 0px 0px 0px 3px;
-  border-left: 6px solid orange;
-}
-
-.Beginning p{
-  text-align: left;
-  font-size: 1.2rem;
-  margin: 10px 30px 0px 40px;
-}
-
-#Beginningfooter{
-  margin-top: 100px;
-}
-
-
 /* Media Query */
 
 @media only screen and (max-width:500px) {
-
 
   h2{
     font-size: 1.6rem;
@@ -603,6 +542,10 @@ text-align: center;
   
   .navbar-toggler-icon {
   color: black;
+  }
+
+  .times{
+    color: black;
   }
   /* Header */
   
@@ -823,12 +766,9 @@ padding-bottom: 10px;
   display: none;
 }
 
-.aboutpage{
-}
-
 #about{
   margin: 0px;
-  height: 1070px;
+  height: 1030px;
 
 }
 .about{
@@ -877,6 +817,13 @@ span{
     font-size: 2.5rem;
     text-align: center;
   }
+
+  .contact-page-note{
+    margin-bottom: 5px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+  }
   
   #form{
     width: 100%;
@@ -920,60 +867,7 @@ span{
   .contactcontainer {
     margin: 10px 20px 0px 20px;
   }
-  
-  
-  /* Blog Page */
-  
-  .blog h1{
-    font-size: 2rem;
-    text-align: left;
-    margin: 0px;
-    padding: 0px 0px 0px 6px;
-    border-left: 6px solid orange;
-    margin-top: 30px;
-  }
-  
-  .blogrow{
-    background-color: white;
-    padding: 0px;
-    margin: 50px 30px;
-    /* text-align: center; */
-  }
-  
-  .blogpad{
-    /* Add shadows to create the "card" effect */
-    border: 1px grey;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    height: 270px;
-    margin: 15px 0px;
-    padding: 0px 10px;
-  }
-  
-  
-  /* On mouse-over, add a deeper shadow */
-  .blogpad:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .blogrow img{
-    padding-top: 20px;
-    width: 80%;
-  }
-  
-  .blogrow h4{
-    padding: 30px 15px 0px 12px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    text-align: left;
-  }
-  
-  .blogrow p{
-    font-size: 15px;
-    padding: 0px 10px;
-    text-align: left;
-  }
+ 
   
   
   
