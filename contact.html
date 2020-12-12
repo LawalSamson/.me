@@ -42,7 +42,7 @@
                     <i class="fas fa-bars"></i>
                 </span>
               </button>
-      
+
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
@@ -67,24 +67,26 @@
 
     <div id="contact">
       <h1>Contact<span>.</span> </h1>
-      <p class="contact-page-note">Please feel free to contact me for any reason through this email address: (<b>lawal4211@gmail.com</b>) or through the form below.</p>
+      <p class="contact-page-note">If you wanna get in touch, talk to me about a project collaboration or just say hi,
+        fill the form below or send an email to (lawal4211@gmail.com) and let's talk.</p>
     </div>
+
+
 
     <div id="Form">
       <div class="contactcontainer">
     <div class="form">
       <div class="column">
-        <form action="content.php">
+        <form action="content.php" method="post">
           <!-- <label for="fname">Name</label> -->
-          <input type="text" id="fname" name="name" placeholder="First Name" required> <input type="text" id="fname" name="name" placeholder="Last Name" required>
-          
+          <input type="text" id="fname" name="name" placeholder="First Name" required>
+           <input type="text" id="lname" name="name" placeholder="Last Name" required>
           <!-- <label for="country">E-mail</label> -->
-          <input type="text" id="fname" name="email" placeholder="Email" required>
+          <input type="email" id="fname" name="email" placeholder="Email" required>
           <!-- <label for="country">Country</label> -->
-          <input type="text" id="fname" name="country" placeholder="Country" required>
-          </select>
-          <!-- <label for="subject">Message</label> --> 
-          <textarea id="subject" name="message" placeholder="Write something..." style="height:170px"></textarea>
+          <input type="subject" id="fname" name="subject" placeholder="Subject" required>
+          <!-- <label for="subject">Message</label> -->
+          <textarea id="msg" name="message" placeholder="Message..." style="height:170px"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
