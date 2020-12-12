@@ -378,27 +378,31 @@ span{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: grey;
   font-family: 'roboto', sans-serif;
+  text-transform: none;
 }
 
 ::-moz-placeholder { /* Firefox 19+ */
   color: grey;
   font-family: 'roboto', sans-serif;
+  text-transform: none;
 }
 
 :-ms-input-placeholder { /* IE 10+ */
   color: grey;
   font-family: 'roboto', sans-serif;
+  text-transform: none;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   color: grey;
   font-family: 'roboto', sans-serif;
+  text-transform: none;
 }
 
 
 .contact-page-note{
   margin-bottom: 5px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 180px;
   text-align: center;
   font-family: 'roboto', sans-serif;
 }
@@ -434,7 +438,24 @@ input[type=text], select, textarea {
   float: left;
 }
 
-#subject {
+input[type=email], select, textarea {
+  width: 49%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 6px 5px 16px 5px;
+  float: left;
+}
+
+input[type=subject], select, textarea {
+  width: 49%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 6px 5px 16px 5px;
+  float: left;
+  text-transform: uppercase;
+}
+
+#msg {
   width: 99%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -442,16 +463,20 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  border: 2px solid orange;
+  color: #171820;
+  font-weight: 600;
   padding: 12px 100px;
-  border: none;
   cursor: pointer;
-  font-family: 'roboto', sans-serif;}
+  font-family: 'roboto', sans-serif;
+  border-radius: 20px;
+}
 
 input[type=submit]:hover {
-background-color: #3E8E41;
+background-color: orange;
 text-align: center;
+border-radius: 20px;
 
 }
 
@@ -821,7 +846,7 @@ span{
 
   .contact-page-note{
     margin-bottom: 5px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 16px 0px 16px;
     text-align: center;
     font-family: 'roboto', sans-serif;
   }
@@ -843,17 +868,29 @@ span{
     margin: 5px 0px 16px 0px;
   }
 
-  #subject {
+  input[type=email], select, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 5px 0px 16px 0px;
+  }
+
+  input[type=subject], select, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 5px 0px 16px 0px;
+  }
+
+  #msg {
     width: 100%;
     border: 1px solid #ccc;
     margin: 5px 0px 16px 0px;
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: #171820;
     padding: 12px 20px;
-    border: none;
+    border-radius: 20px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0px;
@@ -861,8 +898,10 @@ span{
   }
   
   input[type=submit]:hover {
-  background-color: #3E8E41;
-  text-align: center;  
+    background-color: orange;
+    text-align: center;  
+  border-radius: 20px;
+
   }
 
   .contactcontainer {
