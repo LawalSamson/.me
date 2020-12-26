@@ -235,7 +235,7 @@ font-family: 'Andika New Basic', sans-serif;
 .project-note{
   font-size: 1.01rem;
   text-align: left;
-  color: #171820;
+  color: grey;
   font-family: 'Andika New Basic', sans-serif;
 }
 
@@ -244,7 +244,7 @@ font-family: 'Andika New Basic', sans-serif;
   width: 34%;
   float: left;
   margin: 0px 0px 0px 12px;
-  padding: 0px 10px 10px 10px;
+  padding: 50px 10px 10px 10px;
 }
 
 .sub-project-note-2{
@@ -252,7 +252,7 @@ font-family: 'Andika New Basic', sans-serif;
   width: 34%;
   float: left;
   margin: 0px 0px 0px 12px;
-  padding: 0px 10px 10px 10px;
+  padding: 50px 10px 10px 10px;
 }
 
 
@@ -307,8 +307,9 @@ font-weight: bold;
 
 .footer-img{
   color: #171820;
-  padding: 0px 12px 5px 12px;
+  padding: 5px 12px 5px 12px;
   font-size: 25px;
+
 }
 
 .footer-img:hover{
@@ -457,6 +458,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   margin: 6px 5px 16px 5px;
   float: left;
+  font-family: 'Andika New Basic', sans-serif;
 }
 
 input[type=email], select, textarea {
@@ -465,22 +467,35 @@ input[type=email], select, textarea {
   border: 1px solid #ccc;
   margin: 6px 5px 16px 5px;
   float: left;
+  font-family: 'Andika New Basic', sans-serif;
 }
 
-input[type=subject], select, textarea {
+input[type=subject], select {
   width: 49%;
   padding: 12px;
   border: 1px solid #ccc;
   margin: 6px 5px 16px 5px;
   float: left;
   text-transform: uppercase;
+  font-family: 'Andika New Basic', sans-serif;
 }
+
+input[type=message], select, textarea {
+  width: 49%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 6px 5px 16px 5px;
+  float: left;
+  font-family: 'Andika New Basic', sans-serif;
+}
+
 
 #msg {
   width: 99%;
   padding: 12px;
   border: 1px solid #ccc;
   margin: 6px 5px 16px 5px;
+  font-family: 'Andika New Basic', sans-serif;
 }
 
 input[type=submit] {
@@ -711,6 +726,7 @@ padding: 10px 10px;
   font-size: 0.9rem;
   text-align: center;
   margin: 0px;
+  color: grey;
 }
 
 .sub-project-note-1{
